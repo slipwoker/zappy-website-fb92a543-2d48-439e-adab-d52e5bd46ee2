@@ -317,16 +317,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0559220636" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -728,7 +728,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0559220636';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -786,7 +786,7 @@
 
   <!-- Route-line texture overlay -->
   <div class="index-hero-texture" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 700" preserveaspectratio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;opacity:0.07;">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;opacity:0.07;">
       <circle cx="900" cy="200" r="180" fill="none" stroke="#00D4FF" stroke-width="0.8"></circle>
       <circle cx="900" cy="200" r="260" fill="none" stroke="#00D4FF" stroke-width="0.5"></circle>
       <circle cx="900" cy="200" r="340" fill="none" stroke="#00D4FF" stroke-width="0.3"></circle>
@@ -835,7 +835,7 @@
 
   <!-- Bottom Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Cyan runway streaks -->
       <line x1="0" y1="72" x2="400" y2="68" stroke="rgba(0,212,255,0.18)" stroke-width="1"></line>
       <line x1="0" y1="78" x2="600" y2="74" stroke="rgba(0,212,255,0.10)" stroke-width="0.5"></line>
@@ -1019,7 +1019,7 @@
 
   <!-- Bottom Divider: beam-of-light clipped shape -->
   <div class="showcase-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,45 Q80,30 200,48 T480,32 Q640,20 800,40 T1050,30 Q1130,26 1200,38 L1200,90 Z" fill="#F5F7FA"></path>
     </svg>
   </div>
@@ -1041,7 +1041,7 @@
       <!-- Benefit 1 -->
       <article class="index-benefit-card">
         <div class="index-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             <line x1="11" y1="8" x2="11" y2="14"></line>
@@ -1057,7 +1057,7 @@
       <!-- Benefit 2 -->
       <article class="index-benefit-card">
         <div class="index-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"></path>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
@@ -1071,7 +1071,7 @@
       <!-- Benefit 3 -->
       <article class="index-benefit-card">
         <div class="index-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
             <circle cx="9" cy="7" r="4"></circle>
             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -1087,7 +1087,7 @@
       <!-- Benefit 4 -->
       <article class="index-benefit-card">
         <div class="index-benefit-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <line x1="12" y1="1" x2="12" y2="23"></line>
             <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
           </svg>
@@ -1103,7 +1103,7 @@
 
   <!-- Bottom Divider: Departure-board stepped pixel edge -->
   <div class="index-benefits-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 72" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 72" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Gold inset line -->
       <line x1="0" y1="12" x2="1200" y2="12" stroke="#FFD166" stroke-width="1.2" opacity="0.55"></line>
       <!-- Stepped pixel edge filling bottom (charcoal = bg-dark) -->
@@ -1196,7 +1196,7 @@
 
         <div class="index-reassurance-item">
           <div class="index-reassurance-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 3C8.477 3 4 7.477 4 13C4 18.523 8.477 23 14 23C19.523 23 24 18.523 24 13C24 7.477 19.523 3 14 3Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
               <path d="M14 8V14L18 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
@@ -1209,7 +1209,7 @@
 
         <div class="index-reassurance-item">
           <div class="index-reassurance-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 14L11 20L23 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
@@ -1221,7 +1221,7 @@
 
         <div class="index-reassurance-item">
           <div class="index-reassurance-icon" aria-hidden="true">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewbox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.5"></circle>
               <path d="M8 14C9.5 10 18.5 10 20 14C18.5 18 9.5 18 8 14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
               <circle cx="14" cy="14" r="2" fill="currentColor"></circle>
@@ -1241,7 +1241,7 @@
 
   <!-- Bottom Glowing Route-Line Arc Divider -->
   <div class="index-reviews-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Glow arc line -->
       <path d="M0,45 Q300,5 600,45 Q900,85 1200,45" fill="var(--bg-light)" stroke="url(#routeGlow)" stroke-width="1.5" opacity="0.7"></path>
       <!-- Fill bottom to next section -->
@@ -1275,7 +1275,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-glow-bar"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/business-logo.webp" alt="טסים על זה"></a><p class="footer-tagline">המומחים שלך לטיסות ומבצעים חמים — כי כל יעד מתחיל בטיסה הנכונה.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h3><ul class="footer-nav"><li><a href="/deals" class="footer-link"><i class="fas fa-tag footer-link-icon"></i>מבצעים</a></li><li><a href="/about" class="footer-link"><i class="fas fa-plane footer-link-icon"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-envelope footer-link-icon"></i>צור קשר</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>יצירת קשר</h3><ul class="footer-contact-list"><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-envelope"></i></span><a href="mailto:[business_email]" class="footer-link">[business_email]</a></li><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-phone"></i></span><a href="tel:[business_phone]" class="footer-link">[business_phone]</a></li><li class="footer-contact-item"><a href="/"><span class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></span><span class="footer-address">[business_address]</span></a></li></ul></div><div class="footer-col footer-col--cta"><h3 class="footer-heading"><span class="heading-accent"></span>מוכנים לטוס?</h3><p class="footer-cta-text">קבלו מבצעי טיסות בלעדיים ישירות לנייד שלכם.</p><a href="/deals" class="footer-cta-btn"><i class="fas fa-fire"></i> לכל המבצעים</a><div class="footer-badge"><i class="fas fa-shield-alt"></i><span>תמיכה 24/7 בעברית</span></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 טסים על זה. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep">|</span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep">|</span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep">·</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-glow-bar"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-col--brand"><a href="/" class="footer-logo-link"><img class="logo" data-placeholder="logo" data-context="business logo" width="150" height="40" src="/assets/business-logo.webp" alt="טסים על זה"></a><p class="footer-tagline">המומחים שלך לטיסות ומבצעים חמים — כי כל יעד מתחיל בטיסה הנכונה.</p><div class="footer-social"><a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" class="social-link" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-col--links"><h3 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h3><ul class="footer-nav"><li><a href="/deals" class="footer-link"><i class="fas fa-tag footer-link-icon"></i>מבצעים</a></li><li><a href="/about" class="footer-link"><i class="fas fa-plane footer-link-icon"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-envelope footer-link-icon"></i>צור קשר</a></li></ul></div><div class="footer-col footer-col--contact"><h3 class="footer-heading"><span class="heading-accent"></span>יצירת קשר</h3><ul class="footer-contact-list"><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-envelope"></i></span><a href="mailto:mnyz99687@gmail.com" class="footer-link">mnyz99687@gmail.com</a></li><li class="footer-contact-item"><span class="contact-icon-wrap"><i class="fas fa-phone"></i></span><a href="tel:0559220636" class="footer-link">0559220636</a></li><li class="footer-contact-item"><a href="/"><span class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></span><span class="footer-address">ז'בוטינסקי 35, פתח תקווה , ישראל , 42466445, ישראל</span></a></li></ul></div><div class="footer-col footer-col--cta"><h3 class="footer-heading"><span class="heading-accent"></span>מוכנים לטוס?</h3><p class="footer-cta-text">קבלו מבצעי טיסות בלעדיים ישירות לנייד שלכם.</p><a href="/deals" class="footer-cta-btn"><i class="fas fa-fire"></i> לכל המבצעים</a><div class="footer-badge"><i class="fas fa-shield-alt"></i><span>תמיכה 24/7 בעברית</span></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><p class="footer-copyright">© 2026 טסים על זה. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy" class="legal-link">מדיניות פרטיות</a><span class="legal-sep">|</span><a href="/terms" class="legal-link">תנאי שימוש</a><span class="legal-sep">|</span><a href="/accessibility" class="legal-link">נגישות</a><span class="legal-sep">·</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
