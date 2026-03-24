@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מחפשים טיסות זולות לחו״ל במחירים שלא תמצאו בשום מקום אחר? סוכן הטיסות טסים על זה מביא לכם מדי יום מבצעים בלעדיים לאירופה ולכל העולם. הזדמנויות שנגמרות מהר — היכנסו עכשיו!
+
+### מבצעים
+https://example.com/deals
+כל הדילים הכי שווים על טיסות לחו״ל במקום אחד — מתעדכן כל הזמן! טיסות זולות לאירופה, ארה״ב ועוד יעדים חלומיים במחירים שיגרמו לכם לארוז מזוודה מיד. אל תפספסו — הדילים נגמרים!
+
+### אודות
+https://example.com/about
+טסים על זה הוא סוכן טיסות שנולד מתוך אהבה לנסיעות ומחויבות לחסוך לכם כסף אמיתי. גלו מי אנחנו, איך אנחנו מוצאים דילים בלעדיים ולמה אלפי נוסעים בוחרים בנו שוב ושוב. הכירו אותנו!
+
+### צור קשר
+https://example.com/contact
+יש לכם שאלה על טיסה, רוצים לקבל התראה על דיל ספציפי או פשוט צריכים עזרה בתכנון הטיול? צוות סוכן הטיסות שלנו זמין עבורכם. צרו קשר עכשיו ונמצא לכם את הטיסה הזולה ביותר!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
