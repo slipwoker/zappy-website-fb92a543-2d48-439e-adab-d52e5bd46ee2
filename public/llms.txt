@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# טסים על זה — Generative Engine Optimization Map
+
+> A flight agent website focused on showcasing and regularly updating exclusive flight deals. The site needs to allow the agent to easily upload and manage deals, presenting them to potential travelers in an attractive and accessible way. The core value proposition revolves around offering great prices and special offers on flights.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://tasimalalze.zappy5.app
 מחפשים טיסות זולות לחו״ל במחירים שלא תמצאו בשום מקום אחר? סוכן הטיסות טסים על זה מביא לכם מדי יום מבצעים בלעדיים לאירופה ולכל העולם. הזדמנויות שנגמרות מהר — היכנסו עכשיו!
 
 ### מבצעים
-https://example.com/deals
+https://tasimalalze.zappy5.app/deals
 כל הדילים הכי שווים על טיסות לחו״ל במקום אחד — מתעדכן כל הזמן! טיסות זולות לאירופה, ארה״ב ועוד יעדים חלומיים במחירים שיגרמו לכם לארוז מזוודה מיד. אל תפספסו — הדילים נגמרים!
 
 ### אודות
-https://example.com/about
+https://tasimalalze.zappy5.app/about
 טסים על זה הוא סוכן טיסות שנולד מתוך אהבה לנסיעות ומחויבות לחסוך לכם כסף אמיתי. גלו מי אנחנו, איך אנחנו מוצאים דילים בלעדיים ולמה אלפי נוסעים בוחרים בנו שוב ושוב. הכירו אותנו!
 
 ### צור קשר
-https://example.com/contact
+https://tasimalalze.zappy5.app/contact
 יש לכם שאלה על טיסה, רוצים לקבל התראה על דיל ספציפי או פשוט צריכים עזרה בתכנון הטיול? צוות סוכן הטיסות שלנו זמין עבורכם. צרו קשר עכשיו ונמצא לכם את הטיסה הזולה ביותר!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://tasimalalze.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://tasimalalze.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://tasimalalze.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About טסים על זה
+A flight agent website focused on showcasing and regularly updating exclusive flight deals. The site needs to allow the agent to easily upload and manage deals, presenting them to potential travelers in an attractive and accessible way. The core value proposition revolves around offering great prices and special offers on flights.
+
+## Target Audience
+נוסעים המחפשים דילים על טיסות
+
+## Industry
+תיירות ותעופה
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://tasimalalze.zappy5.app/sitemap.xml
+- **Robots.txt**: https://tasimalalze.zappy5.app/robots.txt
